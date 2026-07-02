@@ -1,0 +1,37 @@
+- [ ] Paramètres > Système > Stockage > Fichiers temporaires
+- [ ] Win + r 
+	- [ ] %temp%
+	- [ ] temp
+- [ ] Désinstaller les logiciels lourds inutiles
+
+
+- [ ] Win + r
+	- sysdm.cpl
+		- - Onglet **Paramètres système avancés**
+		- Performance > **Paramètres**
+		- Choisis **Ajuster afin d’obtenir les meilleures performances**
+		- Tu peux garder seulement : “Lisser les polices écran”.
+
+
+
+
+- [ ] lancent automatiquement au démarrage de Windows.
+	1. -Appuie sur `Ctrl + Shift + Échap`
+	2. Va dans l’onglet **Applications de démarrage** ou **Démarrage**
+	3. Tu vas voir la liste des logiciels.
+	4. Clique sur un logiciel.
+	5. Choisis :
+		1. **Activer** : il démarre avec Windows
+		2. **Désactiver** : il ne démarre plus automatiquement
+
+
+- [ ] CMD
+	- chkdsk C: /f
+	- sfc /scannow
+    -Résultats possibles :
+      • Aucune violation d’intégrité : tout est normal.
+      • Des fichiers corrompus ont été réparés : problème corrigé.
+      • Windows n’a pas pu réparer certains fichiers : il faut lancer ensuite :
+          - DISM /Online /Cleanup-Image /RestoreHealth
+	
+		
