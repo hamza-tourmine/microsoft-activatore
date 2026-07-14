@@ -1,3 +1,7 @@
+[![README](https://img.shields.io/badge/README-Accueil-blue)](README.md)
+[![Internet](https://img.shields.io/badge/Internet-Guide-green)](internet.md)
+
+
 # Connexion Internet fonctionnelle, mais accès Web impossible
 navégateur chrome //
 chrome://flags/
