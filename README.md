@@ -1,3 +1,7 @@
+[![README](https://img.shields.io/badge/README-Accueil-blue)](README.md)
+[![Internet](https://github.com/hamza-tourmine/microsoft-activatore/blob/main/internet.md)](internet.md)
+
+
 # Optimisation services Windows - mode prudent
 # Lance PowerShell en administrateur
 
