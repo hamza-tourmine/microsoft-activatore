@@ -7,6 +7,7 @@
 [![README](https://img.shields.io/badge/🏠_README-Accueil-2563EB?style=for-the-badge)](README.md)
 [![Internet](https://img.shields.io/badge/🌐_Internet-Guide-16A34A?style=for-the-badge)](internet.md)
 [![Services](https://img.shields.io/badge/⚙️_Services-Optimisation-F59E0B?style=for-the-badge)](services.md)
+[![Imprimante](https://img.shields.io/badge/🖨️_Imprimante-Partage-7C3AED?style=for-the-badge)](printer.md)
 
 ---
 
