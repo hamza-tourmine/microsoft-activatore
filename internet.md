@@ -394,3 +394,43 @@ Ensuite :
 [![Retour au README](https://img.shields.io/badge/⬅️_Retour-README-2563EB?style=for-the-badge)](README.md)
 
 </div>
+---
+Solution 1 (la plus simple)
+
+Essayez d'ouvrir :
+
+http://google.com (sans https)
+ou https://1.1.1.1
+
+Si cela fonctionne, le problème est bien lié au protocole HTTPS/QUIC.
+
+Solution 2 : Désactiver QUIC dans Chrome
+Ouvrez Chrome.
+
+Dans la barre d'adresse, tapez :
+
+chrome://flags
+
+Recherchez :
+
+QUIC
+Mettez Experimental QUIC protocol sur Disabled.
+Redémarrez Chrome.
+Solution 3 : Réinitialiser le réseau Windows
+
+Ouvrez Invite de commandes en tant qu'administrateur et exécutez :
+
+ipconfig /flushdns
+netsh winsock reset
+netsh int ip reset
+
+Puis redémarrez le PC.
+
+J'ai une question importante
+
+Comme vous êtes au bureau, ce PC est-il connecté :
+
+🏢 au réseau de votre entreprise (ANEF) ?
+🏠 ou à votre réseau personnel ?
+
+Si c'est le réseau de votre entreprise, il est possible qu'un proxy, un pare-feu ou un logiciel de sécurité bloque HTTP/3 (QUIC). Dans ce cas, le problème vient de la configuration du réseau et non de votre ordinateur.
