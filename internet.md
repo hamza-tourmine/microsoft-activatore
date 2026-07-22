@@ -399,8 +399,10 @@ Solution 1 (la plus simple)
 
 Essayez d'ouvrir :
 
+```text
 http://google.com (sans https)
 ou https://1.1.1.1
+```
 
 Si cela fonctionne, le problème est bien lié au protocole HTTPS/QUIC.
 
@@ -409,7 +411,9 @@ Ouvrez Chrome.
 
 Dans la barre d'adresse, tapez :
 
+```cmd
 chrome://flags
+```
 
 Recherchez :
 
@@ -420,9 +424,11 @@ Solution 3 : Réinitialiser le réseau Windows
 
 Ouvrez Invite de commandes en tant qu'administrateur et exécutez :
 
+```cmd
 ipconfig /flushdns
 netsh winsock reset
 netsh int ip reset
+```
 
 Puis redémarrez le PC.
 
