@@ -9,6 +9,8 @@
 [![Services](https://img.shields.io/badge/⚙️_Services-Optimisation-F59E0B?style=for-the-badge)](services.md)
 [![Imprimante](https://img.shields.io/badge/🖨️_Imprimante-Partage-7C3AED?style=for-the-badge)](printer.md)
 
+[![Imprimante](https://img.shields.io/badge/🖨️_Imprimante-Partage-7C3AED?style=for-the-badge)](réparationMariaDb.md)
+
 ---
 
 **Windows • PowerShell • Services • Performance • Sauvegarde**
