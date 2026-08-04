@@ -9,7 +9,9 @@
 [![Services](https://img.shields.io/badge/⚙️_Services-Optimisation-F59E0B?style=for-the-badge)](services.md)
 [![Imprimante](https://img.shields.io/badge/🖨️_Imprimante-Partage-7C3AED?style=for-the-badge)](printer.md)
 
-[![Réparation MariaDB](https://img.shields.io/badge/Réparation-MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)](reparationMariaDb.md)
+
+<img src="https://img.shields.io/badge/MariaDB-10.4+-003545?style=for-the-badge&logo=mariadb&logoColor=white">
+
 
 ---
 
