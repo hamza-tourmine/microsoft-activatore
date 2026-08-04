@@ -3,9 +3,6 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/MariaDB-10.4+-003545?style=for-the-badge&logo=mariadb&logoColor=white">
-<img src="https://img.shields.io/badge/XAMPP-Compatible-FB7A24?style=for-the-badge&logo=xampp&logoColor=white">
-<img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/Laravel-Compatible-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
 
 </p>
 
