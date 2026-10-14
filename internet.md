@@ -440,3 +440,36 @@ Comme vous êtes au bureau, ce PC est-il connecté :
 🏠 ou à votre réseau personnel ?
 
 Si c'est le réseau de votre entreprise, il est possible qu'un proxy, un pare-feu ou un logiciel de sécurité bloque HTTP/3 (QUIC). Dans ce cas, le problème vient de la configuration du réseau et non de votre ordinateur.
+
+
+
+
+
+===========================================================================                  ====================================================================================================================
+
+Ouvrez CMD en tant qu'administrateur, puis exécutez ces commandes dans l'ordre :
+1. Vider le cache DNS
+ipconfig /flushdns
+
+
+2. Réinitialiser Winsock
+netsh winsock reset
+
+
+3. Réinitialiser TCP/IP
+netsh int ip reset
+
+
+4. Renouveler l'adresse IP (si DHCP)
+ipconfig /release
+ipconfig /renew
+
+
+5. Redémarrer Windows
+shutdown /r /t 0
+
+
+6. Après le redémarrage, tester Internet
+ping 8.8.8.8
+nslookup google.com
+ping google.com
