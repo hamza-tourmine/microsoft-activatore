@@ -1,9 +1,5 @@
 # Rapport de dépannage — Imprimante USB HP et Windows Update
 
-
-
-Ce document sert de rapport d'intervention et de guide pour résoudre les mêmes problèmes lors d'une prochaine intervention. Les observations viennent de la conversation ; les actions non confirmées sont présentées comme des solutions à tester, et non comme des réparations réussies.
-
 ## Sommaire
 
 - [1. Résumé des incidents](#1-résumé-des-incidents)
