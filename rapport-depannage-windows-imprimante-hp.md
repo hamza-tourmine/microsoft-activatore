@@ -1,9 +1,6 @@
 # Rapport de dépannage — Imprimante USB HP et Windows Update
 
-> **Date de l'intervention :** 24 novembre 2026  
-> **Système :** Windows 10 (selon la conversation)  
-> **Matériel :** HP Color LaserJet Pro M452dn, connexion USB  
-> **Statut :** diagnostic avancé, résolution finale non confirmée.
+
 
 Ce document sert de rapport d'intervention et de guide pour résoudre les mêmes problèmes lors d'une prochaine intervention. Les observations viennent de la conversation ; les actions non confirmées sont présentées comme des solutions à tester, et non comme des réparations réussies.
 
